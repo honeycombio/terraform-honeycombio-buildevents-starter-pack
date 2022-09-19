@@ -3,7 +3,7 @@ terraform {
     organization = "honeycomb"
 
     workspaces {
-      name = "buildevents-quick-start-guides"
+      name = "buildevents-starter-pack-tests"
     }
   }
 }
