@@ -1,8 +1,8 @@
-# Terraform Honeycomb Explore Buildevents Starter Pack
+Terraform Honeycomb Explore Buildevents Starter Pack
 ========================================================
 
 This module creates resources Boards and Queries in [Honeycomb](https://www.honeycomb.io) to kick off exploration 
-of Build events sent by CI/CD systems to Honeycomb.
+of [Build events](https://github.com/honeycombio/buildevents) sent by CI/CD systems to Honeycomb.
 
 ## Use
 
