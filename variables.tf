@@ -1,6 +1,6 @@
 # Input variable definitions
 
-variable "dataset" {
+variable "honeycomb_dataset" {
   description = "Name of the dataset the build events data from CI/CD systems are being sent to."
   type        = string
   default     = "buildevents"

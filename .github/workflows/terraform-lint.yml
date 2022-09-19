@@ -3,9 +3,6 @@ on: [push, pull_request]
 jobs:
   terraform-fmt:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: modules/explore-buildevents-starter-pack/
     steps:
     - uses: actions/checkout@v2
     - uses: hashicorp/setup-terraform@v1
@@ -16,9 +13,6 @@ jobs:
 
   tflint:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: modules/explore-buildevents-starter-pack/
     steps:
     - name: GitHub Action linting Terraform files
       uses: devops-infra/action-tflint@0.3

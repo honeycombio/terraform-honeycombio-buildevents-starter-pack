@@ -25,12 +25,12 @@ data "honeycombio_query_specification" "build_times_over_2_min" {
 }
 
 resource "honeycombio_query" "build_times_over_ideal" {
-  dataset    = var.dataset
+  dataset    = var.honeycomb_dataset
   query_json = data.honeycombio_query_specification.build_times_over_2_min.json
 }
 
 resource "honeycombio_query_annotation" "build_times_over_ideal_annotation" {
-  dataset     = var.dataset
+  dataset     = var.honeycomb_dataset
   query_id    = honeycombio_query.build_times_over_ideal.id
   name        = "Which builds are slow?"
   description = "Explore builds that are taking longer than the preffered ${var.ideal_build_duration_ms} milliseconds"
