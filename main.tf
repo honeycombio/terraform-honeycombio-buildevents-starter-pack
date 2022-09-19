@@ -1,12 +1,3 @@
-terraform {
-  required_providers {
-    honeycombio = {
-      source  = "honeycombio/honeycombio"
-      version = "~> 0.10.0"
-    }
-  }
-}
-
 resource "honeycombio_board" "buildevents_board" {
   name  = "Explore Buildevents"
   style = "visual"
