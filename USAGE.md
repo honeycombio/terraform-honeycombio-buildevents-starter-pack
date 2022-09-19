@@ -8,9 +8,11 @@
 
 ## Providers
 
-| Name                                                             | Version   |
-|------------------------------------------------------------------|-----------|
-| <a name="honeycombio"></a> [honeycombio](#provider\_honeycombio) | ~> 0.10.0 |
+| Name                                                             | Version   | Description                                                                           |
+|------------------------------------------------------------------|-----------|---------------------------------------------------------------------------------------|
+| <a name="honeycombio"></a> [honeycombio](#provider\_honeycombio) | ~> 0.10.0 | Set the API key used by Terraform setting the HONEYCOMB_API_KEY environment variable. |
+
+
 
 ## Modules
 
@@ -29,7 +31,6 @@ No modules.
 
 | Name                                                                                                          | Description                                                        | Type     | Default       | Required |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|----------|---------------|:--------:|
-| <a name="input_honeycomb_api_key"></a> [honeycomb\_api\_key](#input\_honeycomb\_api\_key)                     | Honeycomb team's API key.                                          | `string` | n/a           |   yes    |
 | <a name="input_honeycomb_dataset_name"></a> [honeycomb\_dataset\_name](#input\_honeycomb\_dataset\_name)      | Honeycomb dataset name.                                            | `string` | "buildevents" |    no    |
 | <a name="input_query_time_range"></a> [query\_time\_range](#input\_query\_time\_range)                        | Time range to use for the query runs - in seconds.                 | `number` | 604800        |    no    |
 | <a name="input_ideal_build_duration_ms"></a> [ideal\_build\_duration\_ms](#input\_ideal\_build\_duration\_ms) | Ideal or target build durations for your builds - in milliseconds. | `number` | 120000        |    no    |
