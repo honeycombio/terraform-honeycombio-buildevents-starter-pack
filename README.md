@@ -9,7 +9,7 @@ of [Build events](https://github.com/honeycombio/buildevents) sent by CI/CD syst
 The minimal config is:
 ```hcl
 module "explore-buildevents" {
-  source = "honeycombio/buildevents-starter-pack"
+  source = "honeycombio/buildevents-starter-pack/honeycombio"
 
   honeycomb_dataset = "buildevents" # Optional: defaults to buildevents
   query_time_range = 604800 # in seconds. Optional: defaults to 7 days
