@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-module "honeycombio-buildevents-starter-pack" {
+module "honeycomb-buildevents-starter-pack" {
   source = "../"
 
   honeycomb_dataset = "buildevents" # Optional: defaults to buildevents
