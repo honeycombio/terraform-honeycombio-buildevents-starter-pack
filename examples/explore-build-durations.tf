@@ -9,7 +9,7 @@ terraform {
 }
 
 module "honeycombio-buildevents-starter-pack" {
-  source = "../"
+  source = "honeycombio/buildevents-starter-pack/honeycombio"
 
   honeycomb_dataset = "buildevents" # Optional: defaults to buildevents
   query_time_range = 604800 # in seconds. Optional: defaults to 7 days
