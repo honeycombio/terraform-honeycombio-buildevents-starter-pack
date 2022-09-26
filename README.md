@@ -1,5 +1,5 @@
-Terraform Honeycomb Buildevents Starter Pack
-============================================
+Terraform Honeycombio Buildevents Starter Pack
+==============================================
 
 This module creates resources like Boards and Queries in [Honeycomb](https://www.honeycomb.io) to kick off exploration
 of [Build events](https://github.com/honeycombio/buildevents) sent by CI/CD systems.
