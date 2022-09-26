@@ -1,6 +1,9 @@
 Terraform Honeycombio Buildevents Starter Pack
 ==============================================
 
+[![OSS Lifecycle](https://img.shields.io/osslifecycle/honeycombio/gha-buildevents?color=success)](https://github.com/honeycombio/home/blob/main/honeycomb-oss-lifecycle-and-practices.md)
+[![CI](https://github.com/honeycombio/terraform-honeycombio-buildevents-starter-pack/actions/workflows/test-terraform-module.yml/badge.svg)](https://github.com/honeycombio/terraform-honeycombio-buildevents-starter-pack/actions?query=Test%20Terraform%20Module)
+
 This module creates resources like Boards and Queries in [Honeycomb](https://www.honeycomb.io) to kick off exploration
 of [Build events](https://github.com/honeycombio/buildevents) sent by CI/CD systems.
 
