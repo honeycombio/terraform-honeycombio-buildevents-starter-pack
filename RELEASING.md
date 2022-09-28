@@ -8,13 +8,13 @@ This follows the [recommendation from the GitHub Actions team](https://github.co
 
 Follow these steps to create a new release:
 
-* Open the [Releases Page](https://github.com/honeycombio/terraform-honeycombio-buildevents-starter-pack/releases)
+* Open the [Releases Page](https://github.com/honeycombio/terraform-honeycombio-buildevents-starter-pack/releases).
 
 
-* You should see a draft release with notes and a recommended tag / name - this is created by [release-drafter](.github/workflows/release-drafter.yml)
+* If there are new changes since the last release, you will see a draft release with notes and a recommended tag / name - this is created by [release-drafter](.github/workflows/release-drafter.yml).
  
 
-* Review and make changes to the content or version number
+* Review and make changes to the content or version number.
 
 
 * Save. DO NOT PUBLISH YET.
@@ -26,7 +26,7 @@ Follow these steps to create a new release:
 * Open a PR and merge in once approved.
 
 
-* PUBLISH the Release 🎉
+* PUBLISH the Release. 🎉
 
 
-* Validate & Celebrate - https://registry.terraform.io/modules/honeycombio/buildevents-starter-pack/honeycombio/latest
+* Validate & Celebrate - https://registry.terraform.io/modules/honeycombio/buildevents-starter-pack/honeycombio/latest.
