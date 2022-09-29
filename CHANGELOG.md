@@ -1,3 +1,18 @@
+<a name="v0.0.4"></a>
+# [v0.0.4 🌈 (v0.0.4)](https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/releases/tag/v0.0.4) - 29 Sep 2022
+
+## Changes
+
+- adds OSS metadata and badges [@mjayaram](https://github.com/mjayaram) ([#6](https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/issues/6))
+
+## 🚀 Features
+
+- Level up release workflow [@mjayaram](https://github.com/mjayaram) ([#7](https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/issues/7))
+
+
+[Changes][v0.0.4]
+
+
 <a name="v0.0.3"></a>
 # [v0.0.3](https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/releases/tag/v0.0.3) - 26 Sep 2022
 
@@ -29,6 +44,7 @@
 [Changes][v0.0.1]
 
 
+[v0.0.4]: https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/compare/v0.0.1...v0.0.2
 [v0.0.1]: https://github.com/honeycombio/terraform-honeycomb-buildevents-starter-pack/tree/v0.0.1
