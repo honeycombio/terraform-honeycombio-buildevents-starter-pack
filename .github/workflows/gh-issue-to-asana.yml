@@ -19,4 +19,4 @@ jobs:
           asana-task-description: |
             ${{ github.event.issue.body }}
             source: https://github.com/${{ github.repository_owner }}/${{ github.event.repository.name }}/issues/${{ github.event.issue.number }}
-          asana-tags: '["interrupt","oncall"]'
+          asana-tags: '["1203366051961930"]'
